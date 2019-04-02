@@ -1,0 +1,6 @@
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
+greeting : 안녕하세요
+hello: hello
