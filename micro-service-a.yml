@@ -8,3 +8,6 @@ hello: hello
 spring:
    datasource:
        data: classpath:data-h2-utf8-nobom.sql 
+     
+server:
+   port: 8080
