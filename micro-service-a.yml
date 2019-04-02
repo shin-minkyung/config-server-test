@@ -7,7 +7,16 @@ hello: hello
 
 spring:
    datasource:
-       data: classpath:data-h2-utf8-nobom.sql 
-     
+       data: classpath:data-h2-utf8-nobom.sql      
 server:
    port: 8080
+
+spring:
+   jpa:
+      show-sql: true
+      hiberenate:
+        ddl-auto: create-drop
+      use-new-id-generator-mappings: false
+   h2:
+     console:
+       enabled: true
