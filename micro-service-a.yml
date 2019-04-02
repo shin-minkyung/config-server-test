@@ -1,17 +1,7 @@
-server:
-   port: 8080
-   
-eureka:
-   client:
-      serviceUrl:
-         defaultZone: http://localhost:8761/eureka/
-
-hello: hello
-
----
 spring:
   profile: local
     greeting: 로컬서버입니다 
+    hello: hello
   datasource:
        data: classpath:data-h2-utf8-nobom.sql   
   jpa:
@@ -27,13 +17,24 @@ spring:
     config:
       uri: http://localhost:8888
 
+server:
+   port: 8080
+   
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
+
+
+
  ---
  spring:
    profile: dev
      greeting: 개발서버입니다
- 
+     hello: hello
  ---
  spring:
    profile: default
      greeting: 운영서버입니다
+     hello: hello
   
