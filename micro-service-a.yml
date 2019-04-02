@@ -11,7 +11,7 @@ hello: hello
 ---
 spring:
   profile: local
-    greeting: 
+    greeting: 로컬서버입니다 
   datasource:
        data: classpath:data-h2-utf8-nobom.sql   
   jpa:
