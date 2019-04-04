@@ -20,4 +20,8 @@ eureka:
          defaultZone: http://localhost:8761/eureka/
 
 greeting: 운영서버입니다 
+<<<<<<< HEAD
 
+=======
+hello: This is hello from brach "master". It's a default path.
+>>>>>>> 791632025e91cd0461e001897ec766789a906332
