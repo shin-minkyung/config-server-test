@@ -20,4 +20,5 @@ eureka:
          defaultZone: http://localhost:8761/eureka/
 
 greeting: 운영서버입니다 
-hello: Today's Hello
+hello: This is hello from the branch "sub". You can have different configuration for the same named services with branch option.
+The name of branches must be unique.
