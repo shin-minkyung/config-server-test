@@ -19,5 +19,5 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka/
 
-greeting: global greeting 34433
-hello: new hello44444
+greeting: global greeting 22222222
+hello: new hello4222222
