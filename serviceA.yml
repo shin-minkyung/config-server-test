@@ -21,4 +21,4 @@ eureka:
 
 my: 
   greeting: 기본서버입니다
-hello: new hello2222222222222
+  hello: new hello2222222222222
