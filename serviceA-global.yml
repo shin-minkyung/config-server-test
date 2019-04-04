@@ -19,4 +19,4 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka/
 
-greeting: ggggg222222222
+greeting: ggdffffff22
