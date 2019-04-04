@@ -1,4 +1,4 @@
-﻿spring: 
+spring: 
   datasource:
        data: classpath:data-h2-utf8-nobom.sql   
   jpa:
@@ -19,4 +19,4 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka/
 
-greeting:ffffff
+greeting: ffffff
