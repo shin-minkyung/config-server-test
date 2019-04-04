@@ -1,3 +1,0 @@
-server:
-  port: 8081
-hello: this is sub service as global. I'm an also micro-service-a
