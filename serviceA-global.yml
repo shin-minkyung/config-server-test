@@ -19,5 +19,5 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka/
 
-greeting: 운영서버입니다 
+greeting: global greeting 
 hello: new hello
