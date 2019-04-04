@@ -20,5 +20,5 @@ eureka:
          defaultZone: http://localhost:8761/eureka/
 
 my: 
-  greeting: 기본서버입니다
+  greeting: fffff
   hello: new hello22bbbb
