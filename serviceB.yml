@@ -11,5 +11,5 @@ spring:
       enabled: true
  
 my: 
-  greeting: this is serviceB
+  greeting: this is serviceB333333
   hello: new hello2yyhhbb
