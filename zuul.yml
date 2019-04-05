@@ -37,8 +37,4 @@ serviceA:
         MaxTotalHttpConnections: 500
         MaxConnectionsPerHost: 100
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+
