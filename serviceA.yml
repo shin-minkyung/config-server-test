@@ -18,5 +18,5 @@ eureka:
          defaultZone: http://localhost:8761/eureka/
 
 my: 
-  greeting: dggggfffffgdfgfg
+  greeting: zuul test
   hello: new hello2yyhhbb
