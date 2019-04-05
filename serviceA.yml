@@ -24,5 +24,5 @@ management:
         include: '*'
 
 my: 
-  greeting: zuul test
+  greeting: zuul test 22222
   hello: new hello2yyhhbb
