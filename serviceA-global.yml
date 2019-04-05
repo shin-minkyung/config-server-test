@@ -12,8 +12,6 @@ spring:
   cloud:
     config:
       uri: http://localhost:8999
-server:
-   port: 8080   
 eureka:
    client:
       serviceUrl:
