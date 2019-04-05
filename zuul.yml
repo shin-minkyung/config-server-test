@@ -9,12 +9,7 @@ eureka:
             instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
             perferIpAddress: true
             
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'   
-    
+   
 zuul:
   #prefix: /aa
   ribbonIsolationStrategy: THREAD        
