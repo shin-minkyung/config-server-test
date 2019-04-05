@@ -15,13 +15,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
-server:
-  port: 9898
-spring:
-  application:
-    name: zuul
-    
+        include: '*'   
     
 zuul:
   #prefix: /aa
