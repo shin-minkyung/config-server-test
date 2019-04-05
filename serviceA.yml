@@ -20,5 +20,5 @@ eureka:
          defaultZone: http://localhost:8761/eureka/
 
 my: 
-  greeting: fffff
+  greeting: fgfdgffg
   hello: new hello2yyhhbb
