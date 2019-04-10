@@ -19,4 +19,3 @@ spring:
     config:
       uri: http://localhost:8999
 
-refreshUrl : http://121.128.108.76:10888/monitor
