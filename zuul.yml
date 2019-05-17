@@ -24,6 +24,7 @@ zuul:
 
 serviceA:
   ribbon: 
+        listOfServers: http://localhost:9898
         eureka:
             enabled: true
         NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
